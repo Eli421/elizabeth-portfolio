@@ -1,4 +1,4 @@
-@use 'variables' as v; 
+@import 'variables'; 
 
 html {
     font-size: 62.5%;
@@ -9,8 +9,7 @@ html {
 }
   
 body {
-    background-color: v.$grisClaro;
-    font-family: v.$fuentePrincipal;
+    font-family: $fuente_principal;
     font-size: 1.6rem;
 }
 
