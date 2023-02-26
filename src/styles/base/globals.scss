@@ -16,10 +16,10 @@ body {
 p {
     font-size: 2rem;
 }
-[class$="contenedor"],
-.contenedor {
+[class$="container"],
+.container {
     width: 95%;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
 }
 img {
@@ -33,4 +33,9 @@ ul {
 }
 .seccion {
     padding: 8rem 0;
+}
+
+a {
+    color: $negro;
+    text-decoration: none;
 }
