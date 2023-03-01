@@ -1,0 +1,30 @@
+@import '../../styles/base/variables.scss';
+
+.btn {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 1.6px
+}
+
+.btn-primary {
+    background-color: $primario;
+}
+.btn-secundary {
+    background-color: $secundario;
+}
+.btn-terciary {
+    background-color: $terciario;
+}
+.btn-white {
+    background-color: $blanco;
+}
+
+.white-text {
+    color: $blanco
+}
+.secundary-text {
+    color: $secundario
+}
