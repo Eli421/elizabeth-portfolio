@@ -1,6 +1,10 @@
 import React from 'react'
+import { Navigate } from 'react-router-dom'
 import Button from '../../components/Button/button'
 
+const callHelloWorld = () => {
+  <Navigate to='/projects'/>
+}
 
 export const HomePage = () => {
   return (
@@ -10,6 +14,7 @@ export const HomePage = () => {
         text= "Visit the site"
         bgColor= "btn-primary"
         txColor="white-text"
+        btnFunction={callHelloWorld}
       />
     </>
 

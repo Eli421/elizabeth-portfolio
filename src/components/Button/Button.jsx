@@ -1,11 +1,15 @@
 
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import "./button.scss"
 
-const Button = ({bgColor, txColor, text}) => {
-    
+const Button = ({bgColor, txColor, text, btnFunction}) => {
+
   return (
-    <button className= {`btn ${bgColor} ${txColor}`}>
+    <button 
+    className = {`btn ${bgColor} ${txColor}`}
+    onClick = {btnFunction} 
+    >
        {text}
     </button>
   )
