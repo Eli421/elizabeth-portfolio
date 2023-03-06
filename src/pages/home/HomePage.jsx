@@ -11,8 +11,8 @@ export const HomePage = () => {
     <>
       <h1>HomePage</h1>
       <Button 
-        text= "Visit the site"
-        bgColor= "btn-primary"
+        text= "Download CV"
+        bgColor= "btn-secundary"
         txColor="white-text"
         btnFunction={callHelloWorld}
       />
