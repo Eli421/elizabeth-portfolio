@@ -5,6 +5,7 @@ import github from '../../assets/img/contact_github.png';
 import linkedin from '../../assets/img/contact_linkedin.png';
 import { NavLink } from 'react-router-dom';
 
+
 import './navbar.scss';
 
 export const Navbar = () => {
