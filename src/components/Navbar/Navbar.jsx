@@ -1,22 +1,22 @@
 import React from 'react'
-import phone from '../../assets/img/contact_phone.png';
-import email from '../../assets/img/contact_email.png';
-import github from '../../assets/img/contact_github.png';
-import linkedin from '../../assets/img/contact_linkedin.png';
+import Social from '../Social/Social'
 import { NavLink } from 'react-router-dom';
-
-
 import './navbar.scss';
+import { social } from '../../data';
 
 export const Navbar = () => {
   return (
     <nav className='menu'>
         <div className="menu__content container">
             <ul className='social'>
-                <li className='social__item'><a href="+506 87014577"><img src={phone} alt="phone icon" /></a></li>
-                <li className='social__item'><a href="elizabethcorrales421@gmail.com"><img src={email} alt="email icon" /></a></li>
-                <li className='social__item'><a href="https://github.com/Eli421"><img src={github} alt="github icon" /></a></li>
-                <li className='social__item'><a href="https://www.linkedin.com/in/elizabeth-corrales-salazar-88280b199/"><img src={linkedin} alt="linkedin icon" /></a></li>
+                    {social.map( social => (
+                        <Social 
+                        id={social.id}
+                        reference={social.reference}
+                        image={social.image}
+                        alternativeText={social.alternativeText}
+                        />
+                    ))}
             </ul>
             <ul className='menu__navigation'>
                 <NavLink 
