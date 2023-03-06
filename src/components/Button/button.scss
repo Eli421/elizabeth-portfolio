@@ -1,0 +1,18 @@
+@import "../../styles/base/variables.scss";
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.primario{
+    background-color: $primario;
+}
+
+.secundario{
+    background-color: $secundario;
+}
+
+.blanco {
+    color: $blanco;
+}

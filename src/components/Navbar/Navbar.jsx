@@ -4,6 +4,7 @@ import email from '../../assets/img/contact_email.png';
 import github from '../../assets/img/contact_github.png';
 import linkedin from '../../assets/img/contact_linkedin.png';
 import { NavLink } from 'react-router-dom';
+import {social} from '../../data';
 
 import './navbar.scss';
 
