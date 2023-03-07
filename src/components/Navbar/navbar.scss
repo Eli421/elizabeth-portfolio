@@ -16,19 +16,6 @@
     }
 }
 
-.social {
-    display: flex;
-    gap: 20px;
-
-    &__item {
-        width: 30px;
-    }
-}
-
-.navigation__item {
-    font-size: 20px;
-}
-
 .active{
     color: $secundario;
 }

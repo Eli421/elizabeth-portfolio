@@ -1,6 +1,7 @@
 
 import React from 'react'
 import '../../data'
+import '../Social/social.scss'
 
 const Social = ({ image, reference, alternativeText}) => {
   return (

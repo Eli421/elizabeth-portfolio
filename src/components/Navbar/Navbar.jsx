@@ -1,8 +1,8 @@
 import React from 'react'
 import Social from '../Social/Social'
-import { NavLink } from 'react-router-dom';
+import {NavItems} from '../NavItems/NavItems'
 import './navbar.scss';
-import { social } from '../../data';
+import { social, navItems} from '../../data';
 
 export const Navbar = () => {
   return (
@@ -19,30 +19,15 @@ export const Navbar = () => {
                     ))}
             </ul>
             <ul className='menu__navigation'>
-                <NavLink 
-                    to="/"
-                    className={({isActive}) => `navigation__item ${isActive ? "active" : ""}`}
-                >
-                    Home
-                </NavLink>
-                <NavLink 
-                    to="/projects"
-                    className={({isActive}) => `navigation__item ${isActive ? "active" : ""}`}
-                >
-                    My Projects
-                </NavLink>
-                <NavLink 
-                    to="/about"
-                    className={({isActive}) => `navigation__item ${isActive ? "active" : ""}`}
-                >
-                    About me
-                </NavLink>
-                <NavLink 
-                    to="/contact"
-                    className={({isActive}) => `navigation__item ${isActive ? "active" : ""}`}
-                >
-                    Contact me
-                </NavLink>
+                
+                {navItems.map(item => (
+                    <NavItems
+                        key={item.id}
+                        path={item.path}
+                        name={item.name}
+                    />
+                ))
+                }
             </ul>
         </div>
     </nav>
