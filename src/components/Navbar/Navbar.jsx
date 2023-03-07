@@ -11,7 +11,7 @@ export const Navbar = () => {
             <ul className='social'>
                     {social.map( social => (
                         <Social 
-                        id={social.id}
+                        key={social.id}
                         reference={social.reference}
                         image={social.image}
                         alternativeText={social.alternativeText}
