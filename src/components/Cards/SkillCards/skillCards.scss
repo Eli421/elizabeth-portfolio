@@ -1,0 +1,31 @@
+@import '../../../styles/base/index.scss';
+
+.card {
+    background-color: $primario;
+    padding: 25px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border-radius: 35px;
+
+    &__container {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    &__img {
+        width: 100px;
+        object-fit: contain;
+    }
+
+    &__title {
+        margin: 0;
+        color: $blanco;
+    }
+}
+
