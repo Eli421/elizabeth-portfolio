@@ -1,15 +1,14 @@
 import React from 'react'
 import './ValueCardsItem.scss'
-import Value_1 from '../../../assets/img/value_1.png'
+import '../../../data/personal-values'
 
-export const ValueCardsItem = () => {
+export const ValueCardsItem = ({image, alternativeText, description}) => {
   return (
     <>
       <div className="value">
-        <img className="value__image" src={Value_1} alt="first icon" />
-        <p className="value__text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,
-          reiciendis fugiat nihil cumque atque aspernatur explicabo{" "}
+        <img className="value__image" src={image} alt={alternativeText} />
+        <p className="value__text"> 
+          {description}
         </p>
       </div>
     </>
