@@ -7,7 +7,11 @@ import './skillCards.scss'
 export const SkillCards = () => {
   return (
 
-    <div className="card__container"> 
+    <div className="skills"> 
+        <SkillItem/>
+        <SkillItem/>
+        <SkillItem/>
+        <SkillItem/>
         <SkillItem/>
     </div>
   )

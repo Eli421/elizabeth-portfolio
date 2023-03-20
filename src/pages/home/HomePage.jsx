@@ -1,5 +1,5 @@
 import React from 'react'
-import { SkillCards } from '../../components/Cards/SkillCards/SkillCards'
+// import { SkillCards } from '../../components/Cards/SkillCards/SkillCards'
 import { ValueCards } from '../../components/Cards/ValueCards/ValueCards'
 
 export const HomePage = () => {
