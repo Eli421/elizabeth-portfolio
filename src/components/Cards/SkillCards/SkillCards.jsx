@@ -2,17 +2,22 @@
 import React from 'react'
 import { SkillItem } from './SkillItem'
 import './skillCards.scss'
+import { skillCards } from '../../../data'
 
 
 export const SkillCards = () => {
   return (
 
     <div className="skills"> 
-        <SkillItem/>
-        <SkillItem/>
-        <SkillItem/>
-        <SkillItem/>
-        <SkillItem/>
+        {skillCards.map( skillCard => (
+          <SkillItem
+              key={skillCard.id}
+              bgColor={skillCard.bgColor}
+              image={skillCard.image}
+              alternativeText={skillCard.alternativeText}
+              title={skillCard.title}
+          />
+        ))}
     </div>
   )
 }

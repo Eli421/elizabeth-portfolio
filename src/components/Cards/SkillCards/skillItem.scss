@@ -24,3 +24,31 @@
         color: $blanco;
     }
 }
+
+.primario{
+    background-color: $primario;
+}
+
+.secundario{
+    background-color: $secundario;
+}
+
+.terciario {
+    background-color: $terciario;
+}
+
+.cafe {
+    background-color: $cafe;
+}
+
+.lightPrimario {
+    background-color: lighten($primario, 10%)
+}
+.lightSecundario {
+    background-color: lighten($secundario, 5%)
+}
+.lightTerciario {
+    background-color: lighten($terciario, 7%)
+}
+
+

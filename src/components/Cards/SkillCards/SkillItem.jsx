@@ -1,13 +1,13 @@
 import React from 'react'
-import html from '../../../assets/img/skills_html.png'
+import '../../../data'
 import './skillItem.scss'
 
-export const SkillItem = () => {
+export const SkillItem = ({bgColor, image, alternativeText, title}) => {
   return (
     <>
-      <div className="card">
-        <img className="card__img" src={html} alt="html logo" />
-        <h3 className="card__title">HTML</h3>
+      <div className={`card ${bgColor}`}>
+        <img className="card__img" src={image} alt={alternativeText} />
+        <h3 className="card__title">{title}</h3>
       </div>
     </>
   );
