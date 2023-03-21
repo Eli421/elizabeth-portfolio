@@ -1,0 +1,22 @@
+@import '../../styles/base/variables.scss';
+
+.title {
+    font-size: 50px;
+    font-family: $secundaria;
+}
+
+.colorPrimario{
+    color: $primario;
+}
+
+.colorSecundario{
+    color: $secundario;
+}
+
+.colorTerciario{
+    color: $terciario;
+}
+
+.colorBlanco{
+    color: $blanco;
+}
