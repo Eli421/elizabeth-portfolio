@@ -4,7 +4,7 @@ export const personalValues = [
         id: 1, 
         image: '/src/assets/img/value_1.png',
         alternativeText:'First Value',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,reiciendis fugiat nihil cumque atque aspernatur explicabo'
+        description: 'Problem-solving is a crucial skill for me as it involves identifying and analyzing issues, breaking them down into manageable parts, and using logical thinking, creativity, and perseverance to find solutions.'
 
     },
     
@@ -12,7 +12,7 @@ export const personalValues = [
         id: 2, 
         image: '/src/assets/img/value_2.png',
         alternativeText:'Second Value',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,reiciendis fugiat nihil cumque atque aspernatur explicabo'
+        description: 'I believe that web development requires effective teamwork, which involves clear communication, openness to feedback, and a shared commitment to achieving project goals in order to deliver the best results.'
 
     },
     
@@ -20,7 +20,7 @@ export const personalValues = [
         id: 3, 
         image: '/src/assets/img/value_3.png',
         alternativeText:'Third Value',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,reiciendis fugiat nihil cumque atque aspernatur explicabo'
+        description: 'My priority is to deliver high-quality work that meets user needs and enhances their reputation. To achieve this, I focus on paying attention to detail and on user experience to create clean and efficient code.'
 
     },
     
@@ -28,7 +28,7 @@ export const personalValues = [
         id: 4, 
         image: '/src/assets/img/value_4.png',
         alternativeText:'Fourth Value',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,reiciendis fugiat nihil cumque atque aspernatur explicabo'
+        description: 'I believe critical thinking is vital to make sound decisions based on available evidence as it allows us to identify areas for improvement, optimize website performance, and deliver effective solutions that meet client needs.'
 
     },
     
