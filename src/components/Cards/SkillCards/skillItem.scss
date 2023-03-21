@@ -1,0 +1,53 @@
+@import '../../../styles/base/index.scss';
+
+.card {
+    background-color: $primario;
+    padding: 25px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border-radius: 35px;
+
+
+
+    &__img {
+        width: 100px;
+        object-fit: contain;
+    }
+
+    &__title {
+        margin: 0;
+        color: $blanco;
+    }
+}
+
+.primario{
+    background-color: $primario;
+}
+
+.secundario{
+    background-color: $secundario;
+}
+
+.terciario {
+    background-color: $terciario;
+}
+
+.cafe {
+    background-color: $cafe;
+}
+
+.lightPrimario {
+    background-color: lighten($primario, 10%)
+}
+.lightSecundario {
+    background-color: lighten($secundario, 5%)
+}
+.lightTerciario {
+    background-color: lighten($terciario, 7%)
+}
+
