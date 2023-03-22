@@ -1,0 +1,20 @@
+@import '../../../styles/base/variables.scss';
+
+.socialVertical__list {
+
+
+    &__flex {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 13px;
+        color:$blanco;
+    }
+
+    &__image {
+        width: 30px;
+    }
+
+
+   
+}

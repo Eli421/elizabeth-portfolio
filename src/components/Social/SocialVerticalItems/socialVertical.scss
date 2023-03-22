@@ -1,0 +1,19 @@
+@import '../../../styles/base/index.scss';
+
+.socialVertical{
+    list-style: none;
+    padding: 20px;
+    border-radius: 30px
+}
+
+.medium {
+    width: 330px;
+}
+
+.colorPrimary {
+    background-color: $primario;
+}
+
+.colorTerciary {
+    background-color: $terciario;
+}
