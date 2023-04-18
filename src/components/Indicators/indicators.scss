@@ -1,0 +1,42 @@
+
+@import '../../styles/base/index.scss';
+
+.project {
+
+
+    &__technologies {
+        display: flex;
+        margin-bottom: 18px;
+    }
+    
+    &__indicator {
+        height: 18px;
+        width: 18px;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 18px;
+    }
+    
+    &__technology {
+        color: $gris;
+        padding: 0 10px;       
+    }
+
+
+}
+
+.html {
+    background-color: $html;
+}
+
+.sass{
+    background-color: $sass;
+}
+
+.js {
+    background-color: $js;
+}
+
+.css {
+    background-color: $css;
+}

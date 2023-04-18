@@ -1,0 +1,19 @@
+
+.cardProject{
+
+    &__content{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    &__graphic{
+        border-radius: 10px;
+    }
+
+    &__indicatorContent {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

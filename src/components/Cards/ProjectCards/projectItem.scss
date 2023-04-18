@@ -1,0 +1,55 @@
+
+@import '../../../styles/base/index.scss';
+
+.cardProject {
+    background-color: $beige;
+    width: 325px;
+    height: 600px;
+    padding: 8px;
+    
+
+    &__image {
+        height:190px;
+    }
+
+    &__text {
+        margin: 20px 0;
+        text-align: center;
+        color: $gris;
+    }
+
+    // &__container {
+    //     border-radius: 10px;
+    // } resolver por que no toma la propiedad
+
+    &__graphic{
+        border-radius: 10px;
+        height: 18px;
+        width: 300px;
+        margin-bottom: 10px;
+        display: flex;
+
+
+        .html {
+            background-color: $html;
+            height: 100%;
+        }
+        .sass {
+            background-color: $sass;
+
+            height: 100%;
+        }
+        .js {
+            background-color: $js;
+            height: 100%;
+        }
+
+        .css {
+            background-color: $css;
+        }
+
+    }
+
+
+    
+}
