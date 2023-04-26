@@ -1,0 +1,111 @@
+
+@import "../../styles/base/index.scss";
+
+.about {
+    &__titleContainer {
+        display: flex;
+        justify-content:center;
+    }
+
+    &__section {
+        @include grid(2, 50px);
+    }
+
+    &__image {
+        position: relative;  
+
+        &::after {
+            content: '';
+            background-image: url('../../assets/img/eli-aboutMe_4.png');
+            background-size: cover;
+            background-repeat: no-repeat ;
+            background-position: center center;
+            display: block;
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            right: 200px;
+            top:300px;
+            
+        }
+    }
+
+    &__portrait {
+        object-fit: cover;
+        width: 370px;
+        height: 370px;
+        border-radius: 60px;
+        position: relative;
+        margin-top: 50px;
+        margin-left: 100px;
+        z-index: 1;
+    }
+
+    &__graphicA{
+        position: relative;
+
+        &::before {
+            content: "";
+            background-image: url('../../assets/img/icono_2.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: block;
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            top: -170px;
+            right: 400px;
+            z-index: -2;
+        }
+    }
+
+    &__graphicB{
+        position: relative;
+
+        &::after {
+            content: "";
+            background-image: url('../../assets/img/icono_3.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: block;
+            width: 225px;
+            height: 225px;
+            position: absolute;
+            bottom: 245px;
+            left: 360px;
+            z-index: -3;
+
+    }
+}
+    &__graphicC{
+        position: relative;
+
+        &::after {
+            content: "";
+            background-image: url('../../assets/img/icono_4.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: block;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            bottom: 12px;
+            right: 67px;
+
+    }
+}
+
+
+    &__textContainer{
+        background-color: $terciario;
+        padding:50px
+    }
+
+    &__text {
+        color: $blanco;
+        line-height: 35px;
+        text-align: left;
+        font-size: 20px;
+        
+    }
+}

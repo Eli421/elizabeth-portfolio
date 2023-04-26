@@ -6,6 +6,8 @@ import { Quotes } from '../../components/Quotes/Quotes'
 import { SocialVertical } from '../../components/Social/SocialVerticalItems/SocialVertical'
 import { Titles } from '../../components/Titles/Titles'
 import { social } from '../../data'
+import { Header } from '../../layouts/header/header'
+import { AboutMe } from '../../layouts/aboutMe/AboutMe'
 
 
 
@@ -13,8 +15,8 @@ import { social } from '../../data'
 export const HomePage = () => {
   return (
     <>
-      <h1>HomePage</h1>
-        <Quotes/>
+        <Header/>
+        <AboutMe/>
     </>
   )
 }
