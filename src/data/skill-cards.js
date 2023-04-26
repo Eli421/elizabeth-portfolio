@@ -35,7 +35,7 @@ export const skillCards = [
     },
     {
         id: 5,
-        bgColor: 'cafe',
+        bgColor: 'secundario',
         image: '/src/assets/img/contact_github.png',
         alternativeText: 'logo Github',
         title: 'Github'
@@ -43,7 +43,7 @@ export const skillCards = [
     },
     {
         id: 6,
-        bgColor: 'secundario',
+        bgColor: 'terciario',
         image: '/src/assets/img/skills_js.png',
         alternativeText: 'logo JavaScript',
         title: 'JavaScript'
@@ -51,7 +51,7 @@ export const skillCards = [
     },
     {
         id: 7,
-        bgColor: 'terciario',
+        bgColor: 'primario',
         image: '/src/assets/img/skills_react.png',
         alternativeText: 'logo React',
         title: 'React'

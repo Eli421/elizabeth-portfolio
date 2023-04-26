@@ -1,12 +1,13 @@
 
 
 import React from 'react'
-import { quotes } from '../../data'
 import { QuoteItem } from './quoteItem'
+import './quotes.scss'
+
 
 export const Quotes = () => {
   return (
-    <div>
+    <div className="quotes">
       <QuoteItem/>
     </div>
   )
