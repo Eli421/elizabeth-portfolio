@@ -1,0 +1,56 @@
+@import '../../styles/base/index.scss';
+
+
+.header {
+
+    &__background {
+        width: 100%;
+        background: linear-gradient( to right, $primario 62%, $blanco 50%);
+        height: 100vh;
+    }
+
+    &__content {
+        display:flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    &__textContainer{
+        background-color: $blanco;
+        padding: 25px;
+        height: 487px;
+        width:551px;
+        z-index: 1;
+        margin-right: -380px;
+        margin-top: 55px;
+
+
+
+    }
+
+    &__photo {
+        height: 600px;
+        width: 520px;
+        object-fit: cover;
+        margin-left: 300px;
+        position: relative; 
+    }
+
+    &__photoContainer{
+        &::after {
+            content:'';
+            background-image: url('../../assets/img/icono_1.png');
+            background-repeat: no-repeat;
+            background-size: 100px;
+            display: block;
+            position: absolute;
+            width:180px;
+            height: 180px;
+            top:115px;
+            right:280px;
+        }
+    }
+    
+}
+
+

@@ -10,8 +10,8 @@ import { ProjectsPage } from '../pages/projects/ProjectsPage'
 export const AppRouter = () => {
   return (
     <>
-    <Navbar/>
-    <div className="container">
+    {/* <Navbar/> */}
+    <div>
       <Routes>
         <Route path='/' element={<HomePage/>}/>
         <Route path='/about' element={<AboutPage/>}/>
