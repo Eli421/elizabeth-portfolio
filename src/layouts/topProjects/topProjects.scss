@@ -1,0 +1,21 @@
+@import '../../styles/base/index.scss';
+
+.topProjects{
+    margin-bottom: 150px;
+}
+
+.myProjects {
+
+    &__text{
+        font-size: 22px;
+        line-height: 30px;
+        padding-bottom: 70px;
+        padding-left: 250px;
+        width:70%;
+    }
+
+    &__emphasis{
+        color: $terciario;
+        font-weight: 900;
+    }
+}

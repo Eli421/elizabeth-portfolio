@@ -1,6 +1,6 @@
 import React from 'react';
 import { ValueCardsItem } from './ValueCardsItem';
-import './ValueCards.scss'
+import './ValueCards.scss';
 import { personalValues } from '../../../data';
 
 export const ValueCards = () => {
